@@ -1,0 +1,269 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* BODY */
+body {
+    background-color: #040400;
+    color: #e4e865;
+}
+
+
+
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+/* HEADER */
+header {
+    background-color: #9b9737;
+    border-bottom: 1px solid #0c0c0c;
+    padding: 20px 0;
+}
+
+
+
+
+.logo {
+    color: #b8b01a;
+    font-size: 26px;
+}
+
+
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+
+
+
+.menu a {
+    color: #0b0b00;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+
+.menu a:hover {
+    color: #d5d53b;
+}
+
+
+
+
+/* SEÇÕES */
+.secao {
+    padding: 50px 0;
+}
+
+
+
+
+.secao-cinza {
+    background-color: #1d1d1c;
+}
+
+
+
+
+/* DESTAQUE */
+.destaque-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+.destaque-texto h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.destaque-texto p {
+    font-size: 16px;
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* FILTROS */
+.filtros {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+
+.filtro {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #2a3a4a;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+
+.filtro:hover {
+    background-color: #00a8e1;
+    border-color: #00a8e1;
+}
+
+
+
+
+/* IMAGEM DESTAQUE */
+.destaque-imagem img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+/* CATÁLOGO */
+.grid-series {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 35px;
+}
+
+
+
+
+/* CARD SÉRIE */
+.card-serie {
+    background-color: #1a242f;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+
+
+
+.card-serie:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.card-serie img {
+    width: 100%;
+    display: block;
+}
+
+
+
+
+.card-serie h3 {
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+
+.genero {
+    font-size: 13px;
+    color: #9ca3af;
+    padding: 0 10px;
+}
+
+
+
+
+.descricao {
+    font-size: 13px;
+    color: #cbd5e1;
+    padding: 10px;
+}
+
+
+
+
+/* SOBRE */
+#sobre p {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #cbd5e1;
+}
+
+
+
+
+/* CONTATO */
+.lista-contato {
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+
+
+.lista-contato li {
+    margin-bottom: 10px;
+    color: #cbd5e1;
+}
+
+
+
+
+/* RODAPÉ */
+footer {
+    background-color: #0f171e;
+    border-top: 1px solid #1f2a36;
+    text-align: center;
+    padding: 20px 0;
+    color: #9ca3af;
+}
+
+
+
+
+
+
+
+
+
